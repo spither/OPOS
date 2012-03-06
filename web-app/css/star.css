@@ -1,0 +1,20 @@
+.stars-off, .stars-on {
+	position: relative;
+	height: 16px;
+	background: url(stars/jquery.ui.stars.gif) repeat-x 0 -32px;
+}
+
+.stars-on {
+	position: absolute;
+	background-position: 0 -48px;
+}
+
+.stars-caption {
+	position: absolute;
+	top: -1px;
+	right: 100px;
+	z-index: 1;
+	color: black;
+	padding: 0 4px;
+	font-weight: bold;
+}
